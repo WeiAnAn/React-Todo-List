@@ -1,0 +1,16 @@
+.delete-completed-button{
+    margin: 12px auto 0 auto;
+    text-align: center;
+    width: 300px;
+    span{
+        border: 2px solid;
+        margin: 0 15px;
+        padding: 2px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color: #e1e4ea;
+        }
+    }
+
+}

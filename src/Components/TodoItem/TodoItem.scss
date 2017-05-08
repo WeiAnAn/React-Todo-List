@@ -1,0 +1,24 @@
+.todoItem{
+    vertical-align: bottom;
+    height: 30px;
+    margin-top: 12px;
+    .completed-checkbox{
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        font-size: 20px;
+        float: left;
+        &.finished{
+            text-decoration: line-through;
+        }
+        // margin-bottom: 2px;
+    }
+    i{
+        float: right;
+    }
+    .edit-todo-input{
+        font-size: 20px;
+    }
+}
