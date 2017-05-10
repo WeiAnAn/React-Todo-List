@@ -6,7 +6,6 @@ module.exports = {
         "./index.jsx",
     ],
     output: {
-        compress: true,
         filename: 'bundle.js',
         path: path.resolve(__dirname,'dist'),
     },
